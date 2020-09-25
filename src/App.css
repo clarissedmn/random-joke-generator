@@ -82,3 +82,28 @@ em {
   bottom: 0;
   margin: 1rem;
 }
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .joke-card {
+    padding: 1rem;
+    margin: 1.7rem;
+  }
+
+  .joke-button {
+    margin: 2rem;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 80px;
+  }
+}
